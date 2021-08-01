@@ -1,0 +1,7 @@
+var num = prompt("enter positive number:\n"," ");
+msgstr="number and its squares are:\n";
+for(i=1;i<=num;i++)
+{
+	msgstr=msgstr+i+"-"+i*i+"\n";
+}
+alert(msgstr);
